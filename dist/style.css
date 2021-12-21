@@ -24,11 +24,10 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     position: relative;
     background: #eee;
     text-align: center;
-    padding: 0 2em;
+    padding: 2em;
 }
 
 .et-hero-tabs h1,
@@ -305,7 +304,6 @@ a {
     align-items: center;
     display: flex;
     flex-wrap: nowrap;
-    height: 100%;
     justify-content: space-evenly;
     padding: 1rem;
 }
@@ -330,10 +328,10 @@ a {
 .card {
     background-color: rgba(0, 0, 0, .05);
     box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
-    height: 15rem;
+    height: 20rem;
     position: relative;
     transition: all 1s ease;
-    width: 15rem;
+    width: 20rem;
 }
 
 
@@ -343,13 +341,13 @@ a {
 /* An outer container to hold the flip card. This excludes the inside page */
 
 .flip-card {
-    height: 15rem;
+    height: 20rem;
     perspective: 100rem;
     position: absolute;
     right: 0;
     transition: all 1s ease;
     visibility: hidden;
-    width: 15rem;
+    width: 20rem;
     z-index: 100;
 }
 
@@ -394,8 +392,8 @@ a {
 
 .card-front {
     background-color: #fafbfa;
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
 }
 
 
@@ -406,7 +404,7 @@ a {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
     display: flex;
     flex-direction: column;
-    height: 12rem;
+    height: 15.5rem;
     justify-content: center;
     padding: .75rem;
 }
@@ -440,7 +438,7 @@ a {
 /* Styling for the back side of the flip card */
 
 .card-back {
-    background-color: #fafbfa;
+    background-color: #eee;
     transform: rotateY(180deg);
 }
 
@@ -459,14 +457,14 @@ a {
 /* Inside page */
 
 .inside-page {
-    background-color: #fafbfa;
+    background-color: rgb(243, 243, 243);
     box-shadow: inset 20rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.25);
     height: 100%;
-    padding: 1rem;
+    padding: 2rem 1rem;
     position: absolute;
     right: 0;
     transition: all 1s ease;
-    width: 15rem;
+    width: 20rem;
     z-index: 1;
 }
 
